@@ -7,7 +7,8 @@
  "field_order": [
   "section_break_yh4a",
   "name_test",
-  "address_test"
+  "address_test",
+  "lname_test"
  ],
  "fields": [
   {
@@ -23,12 +24,17 @@
    "fieldname": "address_test",
    "fieldtype": "Data",
    "label": "addresstest"
+  },
+  {
+   "fieldname": "lname_test",
+   "fieldtype": "Data",
+   "label": "lnametest"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-05 16:57:40.859037",
+ "modified": "2025-03-05 17:16:01.308997",
  "modified_by": "Administrator",
  "module": "Ramtestapp",
  "name": "ramtestdoctype",
