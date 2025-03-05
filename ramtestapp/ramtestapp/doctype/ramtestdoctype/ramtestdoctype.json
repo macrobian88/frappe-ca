@@ -6,7 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_yh4a",
-  "name_test"
+  "name_test",
+  "address_test"
  ],
  "fields": [
   {
@@ -17,12 +18,17 @@
    "fieldname": "name_test",
    "fieldtype": "Data",
    "label": "nametest"
+  },
+  {
+   "fieldname": "address_test",
+   "fieldtype": "Data",
+   "label": "addresstest"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-05 16:41:22.656590",
+ "modified": "2025-03-05 16:57:40.859037",
  "modified_by": "Administrator",
  "module": "Ramtestapp",
  "name": "ramtestdoctype",
