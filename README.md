@@ -1,6 +1,7 @@
 ### Ramtestapp
 
 test description
+ok
 
 ### Installation
 
