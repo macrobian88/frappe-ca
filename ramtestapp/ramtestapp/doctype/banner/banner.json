@@ -1,37 +1,31 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-03-06 13:50:28.101997",
+ "creation": "2025-03-06 16:52:39.319989",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_pi5o",
-  "agent_name",
-  "agent_phone"
+  "section_break_osnv",
+  "bannerid"
  ],
  "fields": [
   {
-   "fieldname": "agent_name",
-   "fieldtype": "Data",
-   "label": "Agent_Name"
-  },
-  {
-   "fieldname": "agent_phone",
-   "fieldtype": "Data",
-   "label": "Agent_Phone"
-  },
-  {
-   "fieldname": "section_break_pi5o",
+   "fieldname": "section_break_osnv",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bannerid",
+   "fieldtype": "Data",
+   "label": "bannerid"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-06 14:33:28.786757",
+ "modified": "2025-03-06 16:53:33.271288",
  "modified_by": "Administrator",
  "module": "Ramtestapp",
- "name": "Agents",
+ "name": "banner",
  "owner": "Administrator",
  "permissions": [
   {
