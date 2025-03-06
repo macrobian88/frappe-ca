@@ -5,6 +5,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "section_break_pi5o",
   "agent_name",
   "agent_phone"
  ],
@@ -18,12 +19,16 @@
    "fieldname": "agent_phone",
    "fieldtype": "Data",
    "label": "Agent_Phone"
+  },
+  {
+   "fieldname": "section_break_pi5o",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-06 13:51:09.758120",
+ "modified": "2025-03-06 14:33:28.786757",
  "modified_by": "Administrator",
  "module": "Ramtestapp",
  "name": "Agents",
