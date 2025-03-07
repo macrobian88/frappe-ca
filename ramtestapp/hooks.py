@@ -5,12 +5,13 @@ app_description = "test description"
 app_email = "ram@walue.biz"
 app_license = "mit"
 
- Apps
- ------------------
+# Apps
+# ------------------
 
 required_apps = []
 
- Each item in the list will be shown as an app in the apps page
+# Each item in the list will be shown as an app in the apps page
+
  add_to_apps_screen = [
  	{
  		"name": "ramtestapp",
@@ -21,10 +22,10 @@ required_apps = []
  	}
  ]
 
- Includes in <head>
- ------------------
+# Includes in <head>
+# ------------------
 
- include js, css files in header of desk.html
+# include js, css files in header of desk.html
  app_include_css = "/assets/ramtestapp/css/ramtestapp.css"
  app_include_js = "/assets/ramtestapp/js/ramtestapp.js"
 
@@ -48,13 +49,13 @@ required_apps = []
  doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
  doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
- Svg Icons
- ------------------
+# Svg Icons
+# ------------------
  include app icons in desk
  app_include_icons = "ramtestapp/public/icons.svg"
 
- Home Pages
- ----------
+# Home Pages
+# ----------
 
  application home page (will override Website Settings)
  home_page = "login"
