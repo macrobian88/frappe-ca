@@ -1,25 +1,38 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-03-08 11:29:05.077766",
+ "creation": "2025-03-10 11:01:53.501801",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_aw0t"
+  "section_break_yh4a",
+  "name_test",
+  "address_test"
  ],
  "fields": [
   {
-   "fieldname": "section_break_aw0t",
+   "fieldname": "section_break_yh4a",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_test",
+   "fieldtype": "Data",
+   "label": "nametest"
+  },
+  {
+   "fieldname": "address_test",
+   "fieldtype": "Data",
+   "label": "addresstest"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-08 11:31:29.933723",
+ "modified": "2025-03-10 11:02:33.091565",
  "modified_by": "Administrator",
  "module": "Ramtestapp",
- "name": "xyz",
+ "name": "test123",
  "owner": "Administrator",
  "permissions": [
   {
