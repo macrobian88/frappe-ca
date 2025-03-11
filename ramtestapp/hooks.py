@@ -5,19 +5,21 @@ app_description = "test description"
 app_email = "ram@walue.biz"
 app_license = "mit"
 
+
 # Apps
 # ------------------
 
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
+
 add_to_apps_screen = [
     {
        "name": "ramtestapp",
        "logo": "/assets/ramtestapp/images/teg_logo.png",
        "title": "Ramtestapp",
-       "route": "/ramtestapp",
-#      "has_permission": "ramtestapp.api.permission.has_app_permission"
+       "route": "/app/ramtestdoctype",
+#       "has_permission": "ramtestapp.utils.check_app_permission",
     }
  ]
 
@@ -124,9 +126,9 @@ add_to_apps_screen = [
 #       "Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
-# has_permission = {
-#       "Event": "frappe.desk.doctype.event.event.has_permission",
-# }
+#has_permission = {
+#      "Event": "frappe.desk.doctype.event.event.has_permission",
+#}
 
 # Document Events
 # ---------------
