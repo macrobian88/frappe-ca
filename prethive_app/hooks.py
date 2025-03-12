@@ -1,8 +1,8 @@
-app_name = "ramtestapp"
-app_title = "Ramtestapp"
-app_publisher = "ram"
-app_description = "test description"
-app_email = "ram@walue.biz"
+app_name = "prethive_app"
+app_title = "Prethive App"
+app_publisher = "Prethive"
+app_description = "custom application testing"
+app_email = "prethive303@gmail.com"
 app_license = "mit"
 
 # Apps
@@ -13,11 +13,11 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "ramtestapp",
-# 		"logo": "/assets/ramtestapp/logo.png",
-# 		"title": "Ramtestapp",
-# 		"route": "/ramtestapp",
-# 		"has_permission": "ramtestapp.api.permission.has_app_permission"
+# 		"name": "prethive_app",
+# 		"logo": "/assets/prethive_app/logo.png",
+# 		"title": "Prethive App",
+# 		"route": "/prethive_app",
+# 		"has_permission": "prethive_app.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/ramtestapp/css/ramtestapp.css"
-# app_include_js = "/assets/ramtestapp/js/ramtestapp.js"
+# app_include_css = "/assets/prethive_app/css/prethive_app.css"
+# app_include_js = "/assets/prethive_app/js/prethive_app.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/ramtestapp/css/ramtestapp.css"
-# web_include_js = "/assets/ramtestapp/js/ramtestapp.js"
+# web_include_css = "/assets/prethive_app/css/prethive_app.css"
+# web_include_js = "/assets/prethive_app/js/prethive_app.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "ramtestapp/public/scss/website"
+# website_theme_scss = "prethive_app/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "ramtestapp/public/icons.svg"
+# app_include_icons = "prethive_app/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -78,43 +78,43 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "ramtestapp.utils.jinja_methods",
-# 	"filters": "ramtestapp.utils.jinja_filters"
+# 	"methods": "prethive_app.utils.jinja_methods",
+# 	"filters": "prethive_app.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "ramtestapp.install.before_install"
-# after_install = "ramtestapp.install.after_install"
+# before_install = "prethive_app.install.before_install"
+# after_install = "prethive_app.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "ramtestapp.uninstall.before_uninstall"
-# after_uninstall = "ramtestapp.uninstall.after_uninstall"
+# before_uninstall = "prethive_app.uninstall.before_uninstall"
+# after_uninstall = "prethive_app.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "ramtestapp.utils.before_app_install"
-# after_app_install = "ramtestapp.utils.after_app_install"
+# before_app_install = "prethive_app.utils.before_app_install"
+# after_app_install = "prethive_app.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "ramtestapp.utils.before_app_uninstall"
-# after_app_uninstall = "ramtestapp.utils.after_app_uninstall"
+# before_app_uninstall = "prethive_app.utils.before_app_uninstall"
+# after_app_uninstall = "prethive_app.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "ramtestapp.notifications.get_notification_config"
+# notification_config = "prethive_app.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -145,39 +145,39 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"ramtestapp.tasks.all"
+# 		"prethive_app.tasks.all"
 # 	],
 # 	"daily": [
-# 		"ramtestapp.tasks.daily"
+# 		"prethive_app.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"ramtestapp.tasks.hourly"
+# 		"prethive_app.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"ramtestapp.tasks.weekly"
+# 		"prethive_app.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"ramtestapp.tasks.monthly"
+# 		"prethive_app.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "ramtestapp.install.before_tests"
+# before_tests = "prethive_app.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "ramtestapp.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "prethive_app.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "ramtestapp.task.get_dashboard_data"
+# 	"Task": "prethive_app.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -191,13 +191,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["ramtestapp.utils.before_request"]
-# after_request = ["ramtestapp.utils.after_request"]
+# before_request = ["prethive_app.utils.before_request"]
+# after_request = ["prethive_app.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["ramtestapp.utils.before_job"]
-# after_job = ["ramtestapp.utils.after_job"]
+# before_job = ["prethive_app.utils.before_job"]
+# after_job = ["prethive_app.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -227,7 +227,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"ramtestapp.auth.validate"
+# 	"prethive_app.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.

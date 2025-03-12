@@ -1,9 +1,9 @@
 [project]
-name = "ramtestapp"
+name = "prethive_app"
 authors = [
-    { name = "ram", email = "ram@walue.biz"}
+    { name = "Prethive", email = "prethive303@gmail.com"}
 ]
-description = "test description"
+description = "custom application testing"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
