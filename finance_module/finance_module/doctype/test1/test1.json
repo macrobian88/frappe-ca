@@ -6,7 +6,10 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_pm6r",
-  "email"
+  "email",
+  "test_name",
+  "phone",
+  "address"
  ],
  "fields": [
   {
@@ -17,12 +20,27 @@
    "fieldname": "email",
    "fieldtype": "Data",
    "label": "email"
+  },
+  {
+   "fieldname": "test_name",
+   "fieldtype": "Data",
+   "label": "test_name"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "phone"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-13 11:07:16.444491",
+ "modified": "2025-03-13 12:45:27.934873",
  "modified_by": "Administrator",
  "module": "Finance_Module",
  "name": "test1",
