@@ -6,7 +6,9 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_58ui",
-  "name1"
+  "name1",
+  "student",
+  "customer"
  ],
  "fields": [
   {
@@ -17,12 +19,22 @@
    "fieldname": "name1",
    "fieldtype": "Data",
    "label": "name"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Data",
+   "label": "student"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "label": "customer"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-13 11:09:46.849681",
+ "modified": "2025-03-13 13:10:08.107133",
  "modified_by": "Administrator",
  "module": "Finance_Module",
  "name": "test2",
