@@ -9,7 +9,9 @@
   "email",
   "test_name",
   "phone",
-  "address"
+  "address",
+  "first_name",
+  "last_name"
  ],
  "fields": [
   {
@@ -35,12 +37,22 @@
    "fieldname": "address",
    "fieldtype": "Data",
    "label": "address"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First_name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last_name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-13 12:45:27.934873",
+ "modified": "2025-03-21 10:53:27.797834",
  "modified_by": "Administrator",
  "module": "Finance_Module",
  "name": "test1",
